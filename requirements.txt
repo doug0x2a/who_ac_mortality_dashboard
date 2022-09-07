@@ -1,0 +1,22 @@
+Brotli==1.0.9
+click==8.1.3
+dash==2.6.1
+dash-bootstrap-components==1.2.1
+dash-bootstrap-templates==1.0.6
+dash-core-components==2.0.0
+dash-html-components==2.0.0
+dash-table==5.0.0
+Flask==2.2.2
+Flask-Compress==1.12
+itsdangerous==2.1.2
+Jinja2==3.1.2
+MarkupSafe==2.1.1
+numpy==1.23.2
+pandas==1.4.3
+plotly==5.10.0
+six==1.16.0
+tenacity==8.0.1
+Werkzeug==2.0.2
+
+# Required for Heroku
+gunicorn==20.1.0
