@@ -22,8 +22,9 @@ def select_dataset(selected_stat):
 
 
 # Create the Dash app
-app = Dash(title="WHO All Cause Mortality Dashboard",
+app = Dash(__name__, title="WHO All Cause Mortality Dashboard",
            external_stylesheets=[dbc.themes.LUX])
+server = app.server
 load_figure_template('LUX')
 
 
@@ -147,4 +148,4 @@ def update_graph(graph_mode, selected_stat, selected_age, selected_countries, se
 
 # Run local server
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()
